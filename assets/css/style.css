@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cuponblanco {
+    width: 86px;
+    height: 25px;
+}
+
+.precio {
+    color: #28a745;
+}
+
+.card {
+    font-weight: 500;
+}
+
+.home-newsletter {
+    padding: 20px;
+    background: #28a745;
+    grid-row: inherit;
+}
+
+.home-newsletter .single {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.home-newsletter .single h2 {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.home-newsletter .single .form-control {
+    height: 50px;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+.home-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: #243c4f;
+}
+
+.home-newsletter .single .btn {
+    min-height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #212529;
+    padding: 0.5em;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.input-group-btn {
+    gap: 50px;
+
+}
+
+.cuponnegro {
+    width: 82px;
+    height: 24px;
+    margin: 10px;
+}
+
+.cupon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.derechos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.localizacion {
+    display: flex;
+    flex-direction: row;
+
+}
